@@ -1,5 +1,5 @@
 const config = 
 {
-    url: 'http://localhost:2024'
+    url: 'https://donation-system-bend.onrender.com'
 }
 export default config;
