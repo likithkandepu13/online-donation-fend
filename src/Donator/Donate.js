@@ -14,7 +14,8 @@ import liverfailure from "../images/liver failure.jpg"
 import { useNavigate } from 'react-router-dom';
 
 const Donate = () => {
-    const [amounts, setAmounts] = useState({});
+    // const [amounts, setAmounts] = useState({});
+    // console.log(amounts)
    
     const navigate = useNavigate();
     
