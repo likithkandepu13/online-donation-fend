@@ -69,6 +69,9 @@ const DonorDonate = () => {
                 const response = await axios.post(`${config.url}/inserttrans`, requestData);
                 setMessage("Donation Done");
                 setErrorMessage('');
+                console.log(message)
+                console.log(errorMessage)
+                console.log(response)
             } catch (error) {
                 console.error('Error in donating:', error);
                 setErrorMessage('Donation failed. Please try again.');

@@ -8,15 +8,7 @@ import orphan from '../images/orphan.jpg';
 import pic1 from '../images/pic1.jpg';
 
 const Home = () => {
-    const myStyle = {
-        backgroundImage: "url('../images/page-header.jpg')",
-        height: "100vh",
-        marginTop: "-50px",
-        fontSize: "50px",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",   
-    };
-
+   
     const handleLoginClick = () => {
         window.location.href = 'http://localhost:3000/donorlogin';
     };
@@ -57,19 +49,19 @@ const Home = () => {
                         </ul>
 
                         <div className="footer__social">
-                            <a href="https://www.facebook.com/" target="_blank" className="footer__social-link">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"  className="footer__social-link">
                                 <i className="ri-facebook-circle-fill"></i>
                             </a>
 
-                            <a href="https://www.instagram.com/" target="_blank" className="footer__social-link">
+                            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="footer__social-link">
                                 <i className="ri-instagram-fill"></i>
                             </a>
 
-                            <a href="https://twitter.com/" target="_blank" className="footer__social-link">
+                            <a href="https://twitter.com/" target="_blank"  rel="noreferrer" className="footer__social-link">
                                 <i className="ri-twitter-x-line"></i>
                             </a>
 
-                            <a href="https://www.linkedin.com/" target="_blank" className="footer__social-link">
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"  className="footer__social-link">
                                 <i className="ri-linkedin-box-fill"></i>
                             </a>
                         </div>
@@ -85,7 +77,7 @@ const Home = () => {
 };
 
 const Donate = () => {
-    const [amounts, setAmounts] = useState({});
+    // const [amounts, setAmounts] = useState({});
     const navigate = useNavigate();
     
     const initialProducts = [

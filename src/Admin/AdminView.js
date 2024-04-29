@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Typography } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
-import pic from '../images/volunteer.jpg'
 
 import config from '../config'
 

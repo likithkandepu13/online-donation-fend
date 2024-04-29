@@ -38,14 +38,14 @@ const DonorLogin = ({onDonorLogin}) => {
   };
 
   // this is for CSS only
-  const myStyle = {
-    backgroundImage: "url('/donate1.jpg')", // Assuming donate1.jpg is directly inside the public folder
-    height: "100vh",
-    marginTop: "-30px",
-    fontSize: "50px",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
+  // const myStyle = {
+  //   backgroundImage: "url('/donate1.jpg')", // Assuming donate1.jpg is directly inside the public folder
+  //   height: "100vh",
+  //   marginTop: "-30px",
+  //   fontSize: "50px",
+  //   backgroundSize: "cover",
+  //   backgroundRepeat: "no-repeat",
+  // };
 
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -62,7 +62,7 @@ const DonorLogin = ({onDonorLogin}) => {
           </button>
           <div className={`text ${isExpanded ? 'show-hide' : ''}`}>
             <form onSubmit={handleSubmit}>
-              <a href=''>Login</a>
+              <button>Login</button>
               <hr />
               <br />
               <input type="text" placeholder="Email" name="email" value={formData.email} onChange={handleChange} />

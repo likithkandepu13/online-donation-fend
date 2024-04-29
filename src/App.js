@@ -3,9 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import NavBar from './Main/NavBar';
-import DonorNavBar from './Donator/DonorNavBar';
 import AdminNavBar from './Admin/AdminNavBar';
-import AdminNav1 from './Admin/AdminNav1';
 import DonorNavBar1 from './Donator/DonorNav1';
 
 function App() {

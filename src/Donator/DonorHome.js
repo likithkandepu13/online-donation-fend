@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { styled } from '@mui/system';
 import config from '../config'
-const Container = styled('div')({
-  textAlign: 'center',
-  marginTop: '50px',
-});
+// const Container = styled('div')({
+//   textAlign: 'center',
+//   marginTop: '50px',
+// });
 
-const WelcomeText = styled('h4')({
-  fontSize: '24px',
-  fontWeight: 'bold',
-  color: '#333',
-});
+// const WelcomeText = styled('h4')({
+//   fontSize: '24px',
+//   fontWeight: 'bold',
+//   color: '#333',
+// });
 
 const DonorHome = () => {
   const [donorData, setDonorData] = useState("");
@@ -29,15 +29,15 @@ const DonorHome = () => {
       setDonorData(capitalizedDonorData);
     }
   }, []);
-  const myStyle = {
-    backgroundImage: "url('/donate1.jpg')", // Assuming donate1.jpg is directly inside the public folder
-    height: "100vh",
-    marginTop: "-50px",
-    fontSize: "50px",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
+//   const myStyle = {
+//     backgroundImage: "url('/donate1.jpg')", // Assuming donate1.jpg is directly inside the public folder
+//     height: "100vh",
+//     marginTop: "-50px",
+//     fontSize: "50px",
+//     backgroundSize: "cover",
+//     backgroundRepeat: "no-repeat",
     
-};
+// };
 
 
 const handleLoginClick = () => {
@@ -72,32 +72,32 @@ Thank you for considering supporting our cause. Your generosity fuels our missio
 
                         <ul className="footer__links">
                             <li>
-                                <a href="http://localhost:3000/donate" className="footer__link">Donate</a>
+                                <a href="http://localhost:3000/donate"  rel="noreferrer" className="footer__link">Donate</a>
                             </li>
 
                             <li>
-                                <a href="http://localhost:3000/donortrans" className="footer__link">Your Transactions</a>
+                                <a href="http://localhost:3000/donortrans" rel="noreferrer"  className="footer__link">Your Transactions</a>
                             </li>
 
                             <li>
-                                <a href="http://localhost:3000/contact" className="footer__link">Contact</a>
+                                <a href="http://localhost:3000/contact"  rel="noreferrer" className="footer__link">Contact</a>
                             </li>
                         </ul>
 
                         <div className="footer__social">
-                            <a href="https://www.facebook.com/" target="_blank" className="footer__social-link">
+                            <a href="https://www.facebook.com/" target="_blank"   rel="noreferrer" className="footer__social-link">
                                 <i className="ri-facebook-circle-fill"></i>
                             </a>
 
-                            <a href="https://www.instagram.com/" target="_blank" className="footer__social-link">
+                            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"  className="footer__social-link">
                                 <i className="ri-instagram-fill"></i>
                             </a>
 
-                            <a href="https://twitter.com/" target="_blank" className="footer__social-link">
+                            <a href="https://twitter.com/" target="_blank"  rel="noreferrer" className="footer__social-link">
                                 <i className="ri-twitter-x-line"></i>
                             </a>
 
-                            <a href="https://www.linkedin.com/" target="_blank" className="footer__social-link">
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"  className="footer__social-link">
                                 <i className="ri-linkedin-box-fill"></i>
                             </a>
                         </div>

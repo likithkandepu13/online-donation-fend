@@ -3,13 +3,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import DonorNavBar from './DonorNavBar'; // Import DonorNavBar
-
-import Contact from '../Main/Contact';
-import DonorLogin from '../Donator/DonorLogin';
-import Registration from '../Donator/Registration';
-import AdminLogin from '../Admin/AdminLogin';
-import Donate from '../Donator/Donate';
-import AdminView from '../Admin/AdminView';
 import DonorProfile from '../Donator/DonorProfile'
 import DonorTrans from '../Donator/DonorTrans'
 import DonorHome from '../Donator/DonorHome'

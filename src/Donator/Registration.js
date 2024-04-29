@@ -33,6 +33,7 @@ export default function SignUp() {
       const response = await axios.post(`${config.url}/insertdonor`, requestData);
       setMessage("Registered Successfully as a Donor!");
       setErrorMessage('');
+      console.log(response)
     } catch (error) {
       console.error('Error registering donor:', error);
       setErrorMessage('Registration failed. Please try again.');

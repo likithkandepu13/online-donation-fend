@@ -1,20 +1,12 @@
-import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import React, { useState } from 'react'
 import bonemarrow from "../images/bonemarrow.jpg";
-import blood from "../images/blood.jpg";
 import braintumor from "../images/braintumor.jpg";
-import covidpatient from "../images/covidpatient.jpg";
 import denguevirus from "../images/denguevirus.jpg";
-import donate from "../images/donate.jpg";
 import healthissues from "../images/healthissues.jpg";
 import legpatient from "../images/legpatient.jpg";
 import army from "../images/army.jpg";
 import flood from "../images/flood.jpg";
-import orphan from "../images/orphan.jpg";
-import pic1 from "../images/pic1.jpg";
-import pic2 from "../images/pic2.jpg";
 import cancer from "../images/cancer.jpg";
-import cancer2 from "../images/cancer2.jpg";
 import floods2 from "../images/floods2.jpg";
 import amry2 from "../images/army2.jpg";
 import heartpatient from "../images/heart patient.jpg";
