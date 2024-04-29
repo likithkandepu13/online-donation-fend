@@ -62,7 +62,7 @@ const DonorLogin = ({onDonorLogin}) => {
           </button>
           <div className={`text ${isExpanded ? 'show-hide' : ''}`}>
             <form onSubmit={handleSubmit}>
-              <button>Login</button>
+              <h1 >Login</h1>
               <hr />
               <br />
               <input type="text" placeholder="Email" name="email" value={formData.email} onChange={handleChange} />
