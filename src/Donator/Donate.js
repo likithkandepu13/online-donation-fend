@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import bonemarrow from "../images/bonemarrow.jpg";
 import braintumor from "../images/braintumor.jpg";
 import denguevirus from "../images/denguevirus.jpg";
