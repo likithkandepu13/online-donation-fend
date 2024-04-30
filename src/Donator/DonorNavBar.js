@@ -35,7 +35,7 @@ function DonorNavBar() {
   const handleLogout = () => {
     localStorage.removeItem('isDonorLoggedIn');
     localStorage.removeItem('donor');
-    navigate('https://donationsystem-klu.netlify.app/donorlogin');
+    navigate('');
     window.location.reload();
   };
 
